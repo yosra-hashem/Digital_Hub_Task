@@ -38,7 +38,7 @@ const Dateselector = () => {
       />
     </div>
 
-    <p>:الفترة </p>
+    <p><b>:الفترة </b></p>
     </div>
   );
 };
