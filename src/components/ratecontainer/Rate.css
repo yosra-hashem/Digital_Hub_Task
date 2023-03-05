@@ -1,0 +1,20 @@
+.rate{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    width: 580px;
+    height: 465px;
+}
+.rate h2{
+    text-align: center;
+}
+.maleAndFemale{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.male, .female{
+    width: 106px;
+    text-align: center;
+}

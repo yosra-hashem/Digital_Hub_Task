@@ -1,0 +1,28 @@
+.wrapper{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    width: 323px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    padding: 5px;
+}
+.numbers{
+    text-align: center;
+}
+.numbers h1{
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-family: inherit;
+}
+.numbers p{
+    margin-top: -6px;
+}
+#statusIcon{
+    width: 50px;
+    height: 50px;
+    margin: 0px 25px 0px 5px;
+}
