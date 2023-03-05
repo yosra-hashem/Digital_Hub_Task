@@ -2,13 +2,13 @@
     background-color: white;
     border: 1px solid lightgray;
     border-radius: 30px;
-    width: 323px;
+    width: 385px;
     height: 125px;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     gap: 20px;
-    padding: 5px;
+    padding: 5px 5px 5px 36px;
 }
 .numbers{
     text-align: center;
