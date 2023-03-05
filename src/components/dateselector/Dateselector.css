@@ -1,7 +1,7 @@
 .date-selector {
     display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
   }
   
   .date-selector label {
@@ -12,11 +12,8 @@
   .date-selector input[type="date"] {
     padding: 8px 12px;
     font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #fff;
-    color: #333;
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    border: none;
+    
   }
   
   .date-selector input[type="date"]:focus {
@@ -24,4 +21,16 @@
     border-color: #0077ff;
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1),
       0 0 0 2px rgba(0, 119, 255, 0.5);
+  }
+  .dateWrapper{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    width: 383px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 7px;
+    margin: 40px 20px 0px 20px;
   }

@@ -1,22 +1,44 @@
 import "./Dateselector.css"
 import React, { useState } from 'react';
+import { HiArrowLongLeft } from "react-icons/hi2";
+
 
 const Dateselector = () => {
-  const [selectedDate, setSelectedDate] = useState('');
+  const [selectedDate1, setSelectedDate1] = useState('');
+  const [selectedDate2, setSelectedDate2] = useState('');
 
-  const handleDateChange = (event) => {
-    setSelectedDate(event.target.value);
+
+  const handleDateChange1 = (event) => {
+    setSelectedDate1(event.target.value);
+  };
+  const handleDateChange2 = (event) => {
+    setSelectedDate2(event.target.value);
   };
 
   return (
+    <div className="dateWrapper">
+    
     <div className="date-selector">
-      <label htmlFor="date-picker">Select a date:</label>
       <input
         type="date"
         id="date-picker"
-        value={selectedDate}
-        onChange={handleDateChange}
+        value={selectedDate1}
+        onChange={handleDateChange1}
       />
+    </div>
+
+    <HiArrowLongLeft/>
+
+    <div className="date-selector">
+      <input
+        type="date"
+        id="date-picker"
+        value={selectedDate2}
+        onChange={handleDateChange2}
+      />
+    </div>
+
+    <p>:الفترة </p>
     </div>
   );
 };

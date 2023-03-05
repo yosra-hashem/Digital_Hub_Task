@@ -1,4 +1,4 @@
-import Datepicker from "../dateselector/Datepicker";
+import Dateselector from "../dateselector/Dateselector";
 import { Numbers } from "../numberscontainer/Numbers";
 import { Rate } from "../ratecontainer/Rate";
 import Statusselector from "../statusselector/Statusselector";
@@ -7,9 +7,9 @@ function Statuscontainer() {
   return (
     <div className="status">
 
-      <div>
+      <div className="dateAndStatus">
         <Statusselector/>
-        <Datepicker/>
+        <Dateselector/>
       </div>
 
       <div className="statusWrapper">

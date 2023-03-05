@@ -19,3 +19,10 @@
     height: 300px;
     margin: 8px 0px;
 }
+.dateAndStatus{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 7px;
+    gap:10px;
+}
