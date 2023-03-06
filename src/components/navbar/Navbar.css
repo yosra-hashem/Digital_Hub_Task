@@ -6,7 +6,6 @@
     justify-content: space-between;
     background-color: white;
     margin-left: 30px;
-    margin-right: -21px;
 }
 
 .logoContainer{
@@ -14,7 +13,7 @@
     width: 346px;
     align-items: center;
     justify-content: space-between;
-    margin-right: 80px;
+    margin-right: 58px;
 }
 #policelogo{
     width:80px;

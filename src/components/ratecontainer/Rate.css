@@ -28,3 +28,12 @@
     margin-top: -101px;
     font-size: 23px;
 }
+
+@media (max-width: 800px) {
+.rate{
+    
+    width: 55%;
+    height: 35%;
+    padding: 26px;
+}
+}
