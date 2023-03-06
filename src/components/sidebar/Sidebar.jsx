@@ -1,5 +1,5 @@
 import "./Sidebar.css"
-// import { GrRadialSelected } from "react-icons/gr";
+import { IoIosArrowUp } from "react-icons/io";
 
 function Sidebar() {
   return (
@@ -12,6 +12,8 @@ function Sidebar() {
             <li>استعلام - تعديل واقعة الميلاد</li>
             <li>طلب تعديل واقعة ميلاد</li>
         </ul>
+        {/* <IoIosArrowUp/> */}
+        {/* <i class="bi bi-arrow-up-short"></i> */}
         <hr id="horizontal"></hr>
     </div>
   )

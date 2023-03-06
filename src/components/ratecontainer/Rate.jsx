@@ -1,6 +1,8 @@
 import "./Rate.css";
-import {ReactComponent as Male} from "../../assets/male.svg";
-import {ReactComponent as FeMale} from "../../assets/female.svg";
+// import {ReactComponent as Male} from "../../assets/male.svg";
+// import {ReactComponent as FeMale} from "../../assets/female.svg";
+import FinalFemaleObject from "./female/FinalFemaleObject";
+import FinalMaleObject from "./male/FinalMaleObject";
 
 export const Rate = (props) => {
   return (
@@ -9,13 +11,13 @@ export const Rate = (props) => {
         <div className="maleAndFemale">
             <div className="male">
                 <h3>ذكور</h3>
-                <Male />
-                <p>12%</p>
+                  <FinalMaleObject type={props.type} />
+                <b><p className="rateMaleParagraph">12%</p></b>
             </div>
             <div className="female">
                 <h3>إناث</h3>
-                <FeMale />
-                <p>88%</p>
+                  <FinalFemaleObject type={props.type}/>
+                  <b><p className="rateFemaleParagraph">88%</p></b>
             </div>
         </div>
     </div>

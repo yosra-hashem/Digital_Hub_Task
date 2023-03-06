@@ -1,6 +1,6 @@
 .status{
     flex: 5;
-    background-color:aliceblue;
+    background-color:#f3f6f9;
 }
 .statusWrapper{
     display: flex;
