@@ -2,28 +2,44 @@
     background-color: white;
     border: 1px solid lightgray;
     border-radius: 30px;
-    width: 385px;
+    width: 70%;
     height: 145px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 20px;
-    padding: 5px 54px 5px 36px;
+    padding: 5px 77px 5px 36px;
 }
 .numbers{
     text-align: center;
 }
 .numbers h1{
     margin-bottom: 0px;
-    font-size: 40px;
+    font-size: 2.5em;
     font-family: inherit;
 }
 .numbers p{
     margin-top: -6px;
-    font-size:20px;
+    font-size: 1.3em;
 }
 #statusIcon{
     width: 75px;
     height: 75px;
     margin: 0px-8px -5px 5px;
+}
+
+@media (max-width: 1400px) {
+    .wrapper{
+        background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    width: 40%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 5px 77px 5px 36px;
+    
+    }
 }

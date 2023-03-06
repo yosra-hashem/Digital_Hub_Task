@@ -1,7 +1,21 @@
 .home{
     display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-    height:100vh;
+    /* justify-content: space-around;
+    flex-wrap: wrap; */
+    /* gap: 20px; */
+    height:100%;
+    width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .home {
+        flex-wrap: wrap;
+      /* flex-direction: column;*/
+      height: auto;
+      
+    }
+    .status-container,
+  .sidebar {
+    flex-basis: 100%;
+  }
+  }

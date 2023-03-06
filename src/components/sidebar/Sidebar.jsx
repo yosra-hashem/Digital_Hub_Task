@@ -5,7 +5,7 @@ function Sidebar() {
   return (
     <div className='sidebar'>
         <ul>
-            <li>المواليد</li>
+            <li><b>المواليد</b></li>
             <li>تسجيل واقعة ميلاد</li>
             <li>تسجيل ميلاد (معثور عليه)</li>
             <li>تسجيل ميلاد (ساقط قيد معثور عليه)</li>
